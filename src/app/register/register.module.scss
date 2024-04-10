@@ -1,0 +1,68 @@
+/** @format */
+.registerWrap {
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+}
+.container {
+   max-width: 1140px;
+   width: 1116px;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.form_container {
+   h2 {
+      font-size: 39px;
+      color: #333;
+   }
+   .note {
+      color: #666666;
+      font-size: 14px;
+   }
+   .form_register {
+      margin-top: 50px;
+      text-align: left;
+      h4 {
+         color: #0b4d8d;
+         text-transform: uppercase !important;
+         font-weight: bold;
+         font-size: 16px;
+      }
+      .btn_submit {
+         background-color: #0b4d8d;
+         float: right;
+         margin-top: 20px;
+         &:disabled {
+            opacity: 0.7;
+            color: #fff;
+         }
+      }
+   }
+}
+.modal {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+.modal_payment {
+   display: flex;
+   gap: 30px;
+   margin-top: 30px;
+   .col_left {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+      .col_left_item {
+         font-size: 14px;
+         font-weight: 500;
+      }
+   }
+   .col_right {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: flex-start;
+   }
+}
